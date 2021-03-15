@@ -1,1 +1,4 @@
-IP address is: <? echo $_SERVER["REMOTE_ADDR"]; ?>
+<?php
+echo "My HostName: " . gethostname(); 
+echo "\n"
+?>
